@@ -19,9 +19,6 @@ const Providers = () => {
         })
     }
 
-    console.log(totalpages);
-
-
 
 
 
@@ -59,7 +56,7 @@ const Providers = () => {
                 </div>
                 <div className='providers-cads'>
                     {
-                       providers.map((provd)=> <ProviderCard provd={provd} /> )
+                       providers.map((provd)=> <ProviderCard key={provd.id} provd={provd} /> )
                     }
                 </div>
                 <div className='left-arrow' onClick={incrementPage}>

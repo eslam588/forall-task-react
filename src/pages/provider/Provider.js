@@ -7,8 +7,6 @@ const Provider = () => {
   const location = useLocation();
   const provider = location.state.provider;
 
-  console.log(provider);
-
   
   return (
     <div className='single-provider'>
