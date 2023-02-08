@@ -13,10 +13,10 @@ const Home = () => {
               <p>we are ready to bring you all your needs anywhere at any time through our useful mobile application. No need to waste time you are one click away</p>
               <button>Install Now</button>
             </div>
-            <img src="/images/social-image.png"/> 
+            <img src="/images/social-image.png" alt='img'/> 
         </div>
         <div className='section-offer'>
-            <img src="/images/offer-image.png"/> 
+            <img src="/images/offer-image.png" alt='img' /> 
             <div className='offer-details'>
               <h2>What We Offer</h2>
               <p>We Offer you different kinds of services that will help you  save your time and be more comfortable</p>

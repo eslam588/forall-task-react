@@ -4,12 +4,11 @@ import { Link } from 'react-router-dom'
 
 const ProviderCard = ({provd}) => {
 
-  console.log(provd);
 
   return (
     <div className='provider-card'>
         <Link to={`/provider/${provd.id}`} state={{ provider: provd}}>
-          <img src={provd.logo["128px"]}/>
+          <img src={provd.logo["128px"]} alt='img'/>
           <p>{provd.name.key}</p>
         </Link>
     </div>

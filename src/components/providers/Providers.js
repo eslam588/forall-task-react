@@ -54,8 +54,8 @@ const Providers = () => {
         <div className='container'>
             <div className='providers-section'>
                 <div className='left-arrow' onClick={decrementPage}>
-                    <img src='/images/arrow-left-before.png'/>
-                    <img src='/images/arrow-left.png'/>
+                    <img src='/images/arrow-left-before.png' alt='img'/>
+                    <img src='/images/arrow-left.png' alt='img'/>
                 </div>
                 <div className='providers-cads'>
                     {
@@ -63,8 +63,8 @@ const Providers = () => {
                     }
                 </div>
                 <div className='left-arrow' onClick={incrementPage}>
-                     <img src='/images/arrow-right.png'/>
-                     <img src='/images/arrow-right-after.png'/>  
+                     <img src='/images/arrow-right.png' alt='img'/>
+                     <img src='/images/arrow-right-after.png' alt='img'/>  
                 </div>
             </div>
         </div>

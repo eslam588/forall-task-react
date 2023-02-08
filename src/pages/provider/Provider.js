@@ -14,7 +14,7 @@ const Provider = () => {
     <div className='single-provider'>
       <div className='container'>
           <div className='provider-details'>
-              <img src={provider.logo["128px"]} />
+              <img src={provider.logo["128px"]} alt='img' />
               <p>{provider.name.key}</p>
               <span>{provider.description.key}</span>
           </div>

@@ -10,11 +10,11 @@ const Header = () => {
             <div className='header-details'>
                 <div className='header-logo'>
                     <Link to="/">
-                       <img src='/images/logo.png'/>
+                       <img src='/images/logo.png' alt='img'/>
                     </Link>
                 </div>
                 <div className='header-title'>
-                    <img src="/images/title-logo.png"></img>
+                    <img src="/images/title-logo.png" alt='img'/>
                     <p>FORALL</p>
                     <span>We Fill The Gap</span>
                 </div>
