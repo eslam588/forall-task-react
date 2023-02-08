@@ -1,0 +1,22 @@
+.provider-card{
+    text-align: center;
+    margin:20px;
+    background-color: #B6E1DA;
+    padding-top:10px;
+    width:150px;
+    height:200px;
+    border-radius:12px; 
+}
+
+.provider-card:hover{
+   border:1px solid #45C0BE;
+}
+
+.provider-card p {
+    text-align: center;
+    font-weight:bold;
+    font-size:15px;
+    color:#000;
+    margin-top:10px;
+}
+

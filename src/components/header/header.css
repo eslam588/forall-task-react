@@ -1,0 +1,57 @@
+.header{
+    width: 100%;
+    height:280px;
+    background:url("/public/images/bg-header.png") no-repeat center; 
+    background-size:cover;
+    color:white;
+}
+
+.header-details{
+    display:flex;
+    padding-top:35px;
+    justify-content:space-between;
+}
+.header-logo{
+    margin-top:-15px;
+    width:33%;
+}
+.header-logo img{
+    display:block; 
+    width:42px;
+    height:45px;
+}
+
+
+
+.header-title{
+    text-align:center;
+    margin-top:10px;
+    width:33%;
+    height:15px;  
+}
+
+.header-title img{
+   height:80px;
+   width:70px;
+}
+
+.header-title p {
+    font-weight:bold;
+    font-size:20px;
+    margin:0;
+}
+.header-title span{
+    font-size:20px;
+}
+
+.header-links{
+    width:33%;
+    text-align:right;
+}
+
+.header-links span{
+    margin-left:50px;
+    cursor:pointer;
+}
+   
+

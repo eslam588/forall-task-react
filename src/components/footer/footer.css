@@ -1,0 +1,101 @@
+.footer{
+    width: 100%;
+    height:300px;
+    background:url("/public/images/bg-footer.png") no-repeat center; 
+    background-size:cover;
+    color:white;
+}
+
+.footer .container{
+    position:relative;
+    width:95%;
+    margin:auto;
+}
+
+.footer-details{
+    position:absolute;
+    bottom:-150px;
+    width:100%;
+    height:100%;
+    display:flex;
+}
+
+.footer-details .footer-about-us{
+   width:33.3%;
+}
+
+.app-store{
+    display:flex;
+}
+
+
+.app-store img:first-child{
+    width:130px !important;
+    height:110px !important;
+    margin-top:-35px;
+}
+
+.app-store img:last-child{
+    width:120px !important;
+    height:40px !important;
+}
+
+
+.footer-about-us .resourses{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.footer-about-us .resourses span{
+    margin-right:20px;
+}
+
+
+.footer-details .footer-links{
+    width:33.3%;
+    text-align:center;
+    margin-top:-40px;
+}
+
+.footer-details .footer-links img {
+    width:80px;
+}
+
+.footer-details .footer-links p{
+    font-weight:bold;
+    font-size:20px;
+    margin:0;
+}
+
+.footer-details .footer-links .links-images img{
+    width:20px;
+    padding:2px;
+
+}
+
+
+
+.footer-details .footer-address{
+    width:33.33%;
+}
+
+.footer-details .footer-address h2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer-details .footer-address h2 img{
+    margin-right:10px;
+    width:30px;
+    height:40px;
+}
+
+.footer-details .footer-address p{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.footer-details .footer-address p:last-child b:last-child{
+    margin-left:20px;
+}

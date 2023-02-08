@@ -1,0 +1,23 @@
+.providers{
+    background-color:#EEF8FF;
+    margin-bottom:200px;
+}
+.providers h2{
+    text-align: center;
+
+}
+.providers-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:400px;
+}
+.providers-cads{
+    display:flex;
+    align-items:center;
+}
+
+.left-arrow img:last-child{
+    margin-left: -35px;
+    cursor:pointer;
+}

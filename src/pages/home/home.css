@@ -1,0 +1,95 @@
+.section-install , .section-offer{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+.home-page h2{
+    margin-bottom:30px;
+}
+
+.section-install{
+    margin-top:-90px;
+    margin-bottom:50px;
+}
+
+.section-offer{
+    margin-bottom:100px;
+}
+
+.section-install .install-details, 
+.section-install img{
+    width:50%;
+}
+
+.section-offer .offer-details{
+    width:36%
+}
+.section-offer img{
+    width:64%;
+
+}
+
+.section-install img{
+    margin:auto;
+    width:500px !important;
+    height:500px !important;
+}
+
+.section-offer img{
+
+    width:550px !important;
+    height:300px !important;
+}
+
+.install-details h2, .offer-details h2{
+    color:#45C0BE;
+}
+.install-details p{
+    width:52%;
+}
+
+.offer-details p{
+    width:80%;
+}
+.install-details p, .offer-details p{
+    font-size:20px;
+    color:#2F2E41;
+    margin-top:20px;
+    margin-bottom:25px;
+}
+
+.install-details button , .offer-details button{
+    background-color:#45C0BE;
+    height:45px;
+    border-radius:25px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    border:none;
+    background-image: linear-gradient(to right, #367877 , #45C0BE);
+    cursor:pointer;
+}
+.install-details button{
+    width:25%;
+}
+
+.offer-details button{
+    width:40%;
+}
+
+
+
+
+
+.providers-header{
+    text-align:center;
+    color:#45C0BE;
+    margin-bottom:10px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
