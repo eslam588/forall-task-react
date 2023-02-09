@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from 'react'
+import React ,{useState,useEffect,useCallback} from 'react'
 import ProviderCard from '../providerCard/ProviderCard'
 import axios from 'axios';
 import "./providers.css"
@@ -9,7 +9,7 @@ const Providers = () => {
     const [totalpages , setTotalPages] = useState(1);
     const [providers, setProviders] = useState([]);
 
-    const getproviders = () => {
+    const getproviders = useCallback(() => {
         const url = "https://forall.sa/services/api/ads/companies?page="
             axios.get(`${url}${pagenum}`).then((res) =>{
             setTotalPages(res.data.pagination.meta.pages)
@@ -17,7 +17,7 @@ const Providers = () => {
         }).catch((error) => {
             console.log(error);
         })
-    }
+    },[pagenum])
 
 
 
@@ -33,13 +33,13 @@ const Providers = () => {
         }
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         getproviders()
-    },[])
+    },[getproviders])
 
     useEffect(()=>{
         getproviders()
-    },[pagenum])
+    },[pagenum,getproviders])
 
     
 
